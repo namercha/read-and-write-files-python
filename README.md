@@ -1,2 +1,2 @@
 # read-and-write-files-python
-Small program to read and write riles
+This exercise is to read a file, write changes to another rile.
