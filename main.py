@@ -22,7 +22,7 @@ for name in list_of_names:
     else:
         template_text[0] = "Dear " + name + ",\n"
 
-    file_name = "Output/ReadyToSend/letter_for_{}.txt".format(name)
+    file_name = f"Output/ReadyToSend/letter_for_{name}.txt"
     with open(file_name, mode="w") as writer:
         for line in template_text:
             writer.write(line)
